@@ -1,0 +1,42 @@
+# Build outputs / compiled servers
+*.exe
+*.linux
+*.out
+/bin/
+/dist/
+
+# Raw / measured binary data
+*.bin
+
+# Secrets & local config: NEVER commit these
+.env
+*.pem
+*.key
+*.pfx
+
+# Runtime state
+/state/
+/data/
+*.log
+
+# Game specific
+/peacewalker-server
+/peacewalker-server.exe
+/nplnpw-new
+/nplnpw
+*.dll
+go.work
+go.work.sum
+/accounts.json
+/sessions.json
+/captures/
+/coverage.out
+# Protocol packages not used by this server
+/proto/appconfig/
+/proto/errdetails/
+/proto/globalcounter/
+/proto/ikaros/
+/proto/leaderboard/
+/proto/maintenance/
+/proto/timber/
+/proto/toyohr/

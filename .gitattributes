@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.go text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.env text eol=lf
+*.py text eol=lf
+*.proto text eol=lf
+*.pem binary
+*.key binary
